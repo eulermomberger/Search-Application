@@ -1,0 +1,23 @@
+{
+  "name": "search-application",
+  "version": "1.0.0",
+  "author": "Euler Momberger",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@stdlib/nlp-lda": "^0.2.1",
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "devDependencies": {
+    "@types/node": "^22.5.2"
+  }
+}
